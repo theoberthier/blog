@@ -12,7 +12,7 @@ class database{
 
     
 
-    public function __construct($dbname = "blog",$host = "localhost",$user = "berthiertheo",$pass = "Helloworld45!",$port= "3306")
+    public function __construct($dbname = "blog",$host = "localhost",$user = "root",$pass = "",$port= "3306")
     {
         $this->dbname = $dbname;
         $this->host = $host;
